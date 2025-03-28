@@ -1,0 +1,11 @@
+@import '@/styles/mixins';
+
+
+.product-card{
+    width: 15rem;
+    @include sm {
+        width: 100vw;
+    }
+
+}
+

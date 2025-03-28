@@ -1,0 +1,9 @@
+export { default as Dashboard } from '@/layouts/Dashboard/Dashboard';
+export { default as Employees } from '@/layouts/Employees/Employees';
+export { default as Home } from '@/layouts/Home/Home';
+export { default as Inventories } from '@/layouts/Inventories/Inventories';
+export { default as Products } from '@/layouts/Products/Products';
+export { default as QrApp } from '@/layouts/QrApp/QrApp';
+export { default as Reports } from '@/layouts/Reports/Reports';
+export { default as TextReader } from '@/layouts/TextReader/TextReader';
+export { default as VoiceEcommerce } from '@/layouts/VoiceEcommerce/VoiceEcommerce'; 

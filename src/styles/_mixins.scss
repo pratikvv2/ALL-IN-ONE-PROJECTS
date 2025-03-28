@@ -1,0 +1,55 @@
+
+// break-points
+@mixin xxs {
+    @media screen and (max-width: 320px) {
+        @content;
+    }
+}
+
+@mixin xs {
+    @media screen and (max-width: 576px) {
+       @content; 
+    }
+}
+
+@mixin sm {
+    @media screen and (max-width: 768px) {
+       @content; 
+    }
+}
+
+@mixin min-md {
+    @media screen and (min-width: 992px) {
+       @content; 
+    }
+}
+
+@mixin max-md {
+    @media screen and (max-width: 992px) {
+       @content; 
+    }
+}
+
+@mixin min-lg {
+    @media screen and (min-width: 1200px) {
+       @content; 
+    }
+}
+
+@mixin max-lg {
+    @media screen and (max-width: 1200px) {
+       @content; 
+    }
+}
+
+@mixin xl {
+    @media screen and (max-width: 1400px) {
+       @content; 
+    }
+}
+
+@mixin xxl {
+    @media screen and (max-width: 1920px) {
+       @content; 
+    }
+}

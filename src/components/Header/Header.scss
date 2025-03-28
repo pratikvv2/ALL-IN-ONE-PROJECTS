@@ -1,0 +1,29 @@
+@import '@/styles/mixins';
+@import '@/styles/variables';
+
+.ia-header{
+
+    .ia-navbar {
+        background-color: dodgerblue;
+        color: white;
+    }
+}
+@include min-md {
+    .dropdown-toggle.show.nav-link, // this is to change the Dropdown menu's text color in larger screens
+    .dropdown-toggle.nav-link {
+        color: $white-color;
+    }
+}
+
+// Overrding Bootstrap's default css
+.dropdown-menu[data-bs-popper] {
+    left: auto !important;
+    right: 15% !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+// Overrding Bootstrap -end
+
+
