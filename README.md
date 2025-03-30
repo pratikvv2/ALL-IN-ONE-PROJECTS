@@ -1,10 +1,12 @@
-# React + Vite
+# All in one Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [Live App Link](https://allinone-reactapp.netlify.app)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-- All SCSS classes have been prefixed with ia-*. Which stands for "Inventory App"
+### This site demonstrates couple of features like:
+- Text to Speech reader
+- Speech to text & search on e-commerce sites
+- QR code generator
+- Online payment gateway with Razorpay
+- Excel file reader
+- Graphs view
+- Whatsapp chat conneector
